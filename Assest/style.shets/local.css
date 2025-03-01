@@ -6,6 +6,9 @@
         >nav{
             width: 100%;
             height: 15%;
+            >figure{
+                margin-left: 30px;
+            }
             >ul{
                 display: none;
             }
@@ -91,6 +94,7 @@
                         >figure{
                             width: 300px;
                             position: relative;
+                            padding-block: 20px;
                             >figcaption{
                                 width: 100%;
                                 >h4{
@@ -123,18 +127,18 @@
                             /* ___________- END OF FIGCAPTION -__________/ */
                             >span{
                                 display: inline-block;
-                                width: 40px;
-                                height: 40px;
+                                width: 25px;
+                                height: 25px;
                                 text-align: center;
-                                line-height: 40px;
+                                line-height: 25px;
                                 border-radius: 50%;
                                 background-color: #c6a16e;
                                 color: #FFF;
-                                font-size: 20px;
+                                font-size: 15px;
                                 font-family:JosefinSans-Italic;
                                 position: absolute;
-                                left: -53px;
-                                top: 343px;
+                                left: -35px;
+                                top: 370px;
                                 transition: .3s;
                             }
                             /* ___________ END OF SPAN _________ */
@@ -476,46 +480,45 @@
     /* _________ START OF FOOTER _________ */
     footer{
         width: 100%;
-        height: auto;
+        /* height: auto; */
+        /* height: 20vh; */
         >figure{
             display: none;
         }
         >.end-of-footer{
             width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            padding-bottom: 30px;
+            /* height: 100vh; */
             >.is-an-art{
-                width: 85%;
-                height: 40%;
-                padding: 70px 100px;
+                width: 100%;
+                /* height: 40%; */
+                padding: 70px 50px;
                 display: flex;
                 /* justify-content: center; */
-                font-size: 4vw;
+                font-size: 5vw;
                 font-weight: 400;
             }
             /* ______ END OF .IS-AN-ART _________ */
             >.contact-link-social{
-                width: 85%;
-                height: 50%;
+                width: 100%;
+                /* height: 50%; */
                 display: flex;
                 >div{
-                    width: 33.33%;
-                    padding: 0px 50px;
+                    width: 33%;
+                    margin-left: 10px;
+                    /* padding: 0px 50px; */
                     >h5{
-                        font-size: 1.4vw;
+                        font-size: 2vw;
                         margin-top: 30px;
                     }
                     /* _______ END OF H5 ________ */
                     >p{
-                        margin-top: 20px;
-                        line-height: 30px;
-                        font-size: 1.1vw;
+                        margin-top: 10px;
+                        /* line-height: 30px; */
+                        font-size: 1.6vw;
                     }
                     >ul{
-                        margin-top: 30px;
+                        margin-top: 10px;
                         >li{
                             padding-block: 4px;
                             font-size: 1.3vw;
@@ -524,7 +527,7 @@
                     /* ________ END OF UL -_________ */
                     >a{
                         display: inline-block;
-                        font-size: 1.3vw;
+                        font-size: 1.8vw;
                         margin-top: 20px;
                     }
                     /* _________ END OF A ________ */
@@ -534,10 +537,12 @@
             /* _________ END OF CONTACT-LINK-SOCIAL _________ */
             >.end-of-footer-name{
                 width: 85%;
-                height: 10%;
+                /* height: 10%; */
                 >h6{
-                    font-size: 1vw;
+                    font-size:2vw;
+                    margin-left: 10px;
                     margin-top: 20px;
+                    /* margin-top: 20px; */
                 }
             }
             /* ________ END OF .END-OF-FOOTER-NAME __________ */
@@ -683,18 +688,18 @@
                             /* ____________ END OF FIGCAPTION _________ */
                             >span{
                                 display: inline-block;
-                                width: 40px;
-                                height: 40px;
+                                width: 30px;
+                                height: 30px;
                                 text-align: center;
-                                line-height: 40px;
+                                line-height: 30px;
                                 border-radius: 50%;
                                 background-color: #c6a16e;
                                 color: #FFF;
-                                font-size: 20px;
+                                font-size: 17px;
                                 font-family:JosefinSans-Italic;
                                 position: absolute;
-                                left: -40px;
-                                top: 350px;
+                                left: -25px;
+                                top: 360px;
                                 transition: .3s;
                             }
                             /* ___________ END OF SPAN ____________ */
@@ -1042,7 +1047,8 @@
         }
         >.end-of-footer{
             width: 100%;
-            height: 100vh;
+            padding-bottom: 20px;
+            /* height: 100vh; */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -1071,11 +1077,11 @@
                     /* _______ END OF H5 ________ */
                     >p{
                         margin-top: 20px;
-                        line-height: 30px;
-                        font-size: 1.1vw;
+                        /* line-height: 30px; */
+                        font-size: 1.3vw;
                     }
                     >ul{
-                        margin-top: 30px;
+                        margin-top: 12px;
                         >li{
                             padding-block: 4px;
                             font-size: 1.3vw;
@@ -1096,8 +1102,8 @@
                 width: 85%;
                 height: 10%;
                 >h6{
-                    font-size: 1vw;
-                    margin-top: 20px;
+                    font-size: 1.4vw;
+                    margin-top: 30px;
                 }
             }
             /* ________ END OF .END-OF-FOOTER-NAME __________ */
