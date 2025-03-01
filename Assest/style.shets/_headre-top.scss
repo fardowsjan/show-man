@@ -1,0 +1,126 @@
+.header_top{
+    // width: 100%;
+    // height: 100vh;;
+    >nav{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        >figure{
+            width: 30%;
+            height: 100%;
+            @extend.flex;
+        }
+        // _______ END OF FIGURE _______
+        >ul{
+            width: 50%;
+            height: 100%;
+            @extend .flex;
+            >li{
+                list-style: none;
+                padding-inline: 20px;
+                position: relative;
+                >a{
+                    text-decoration: none;
+                    color: $first-text-color;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                }
+                >ul{
+                    width: 210%;
+                    // height: 100px;
+                    position: absolute;
+                    visibility: hidden;
+                    background-color: $sixth-background-color;
+                    opacity: 0;
+                    top: 90px;left: 0;
+                    border-top: 4px solid #c6a16e;
+                    transition: .5s;
+                    >li{
+                        list-style: none;
+                        margin-block: 20px;
+                        padding-left: 10px;
+                        >a{
+                            text-decoration: none;
+                            color: $first-text-color;
+                            font-size: 14px;
+                            font-family: sans-serif;
+                            font-weight: 300;
+                            transition: .5s;
+                        }
+                    }
+                }
+                &:hover>ul{
+                    visibility: visible;
+                    opacity: 1;
+                    top: 60px;
+                }
+                &:hover>a{
+                    color: $secondary-text-color;
+                }
+            }
+        }
+        // _______ END OF UL -_______
+        >div{
+            width: 20%;
+            height: 100%;
+            background-color: $Fifth-background-color;
+            @extend .flex;
+            cursor: pointer;
+            position: relative;
+            >a{ 
+                color: $Tirdth-text-color;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-size: 15px;
+                position: relative;
+                z-index: 1;
+            }
+            &::after{
+                content: '';
+                display: block;
+                width: 0%;
+                height: 100%;
+                background-color: #e08c17;
+                position: absolute;
+                top: 0;left: 0;
+                transition: .5s;
+            }
+            &:hover::after{
+                width: 100%;
+            }
+        }
+        // __________ END OF UL -_______
+    }
+    // ________ END OF NAV ________
+    >section{
+        float: right;
+        >.personalization{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h1{
+                text-transform: capitalize;
+                font-family:JosefinSans-Italic;
+                font-weight: 500;
+                color: $fifth-text-color;
+            }
+            >p{
+                font-family:GreatVibes-Regular ;
+                color: $secondary-text-color;
+            }
+            >.arow{
+                display: flex;
+                >a{
+                    display: inline-block;
+                    background-color: $sixth-background-color;
+                    color: $first-text-color;
+                }
+            }
+            // _________ END OF .AROW ________//
+        }
+        // _______ END OF .PERSONALIZATION ________//
+    }
+    // ________ END OF SECTION _______
+}
+// __________ END OF .HEADER_TOP ____________

@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-test {
+  border: 3px solid red;
+}
+
+.border-test2 {
+  border: 2px solid gold;
+}
+
+.border-test3 {
+  border: 2px solid green;
+}
+
+.border-test4, main > .Testimonial {
+  border: 1px solid rgba(198, 161, 110, 0.3568627451);
+}
+
+.flex, .header_top > nav > div, .header_top > nav > ul, .header_top > nav > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.width {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: GreatVibes-Regular;
+  src: url(../Font/GreatVibes-Regular.ttf);
+}
+@font-face {
+  font-family: JosefinSans-Italic;
+  src: url(../Font/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Montserrat-VariableFont;
+  src: url(../Font/Montserrat-VariableFont_wght.ttf);
+}
+.header_top > nav {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+.header_top > nav > figure {
+  width: 30%;
+  height: 100%;
+}
+.header_top > nav > ul {
+  width: 50%;
+  height: 100%;
+}
+.header_top > nav > ul > li {
+  list-style: none;
+  padding-inline: 20px;
+  position: relative;
+}
+.header_top > nav > ul > li > a {
+  text-decoration: none;
+  color: #0a0c10;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.header_top > nav > ul > li > ul {
+  width: 210%;
+  position: absolute;
+  visibility: hidden;
+  background-color: #FFF;
+  opacity: 0;
+  top: 90px;
+  left: 0;
+  border-top: 4px solid #c6a16e;
+  transition: 0.5s;
+}
+.header_top > nav > ul > li > ul > li {
+  list-style: none;
+  margin-block: 20px;
+  padding-left: 10px;
+}
+.header_top > nav > ul > li > ul > li > a {
+  text-decoration: none;
+  color: #0a0c10;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+  transition: 0.5s;
+}
+.header_top > nav > ul > li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  top: 60px;
+}
+.header_top > nav > ul > li:hover > a {
+  color: #c6a16e;
+}
+.header_top > nav > div {
+  width: 20%;
+  height: 100%;
+  background-color: #c6a16e;
+  cursor: pointer;
+  position: relative;
+}
+.header_top > nav > div > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  position: relative;
+  z-index: 1;
+}
+.header_top > nav > div::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 100%;
+  background-color: #e08c17;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.header_top > nav > div:hover::after {
+  width: 100%;
+}
+.header_top > section {
+  float: right;
+}
+.header_top > section > .personalization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header_top > section > .personalization > h1 {
+  text-transform: capitalize;
+  font-family: JosefinSans-Italic;
+  font-weight: 500;
+  color: #FFF;
+}
+.header_top > section > .personalization > p {
+  font-family: GreatVibes-Regular;
+  color: #c6a16e;
+}
+.header_top > section > .personalization > .arow {
+  display: flex;
+}
+.header_top > section > .personalization > .arow > a {
+  display: inline-block;
+  background-color: #FFF;
+  color: #0a0c10;
+}
+
+.offer-of-clients {
+  background-color: #0b1416;
+}
+
+.our-work {
+  background-color: #0b1416;
+}
+.our-work > .work > figure {
+  position: relative;
+  z-index: 1;
+}
+.our-work > .work > figure > span {
+  display: inline-block;
+  border: 2px solid #c6a16e;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  text-align: center;
+  line-height: 80px;
+  background-color: #FFF;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.our-work > .work > figure > span > a {
+  color: #c6a16e;
+  transition: 0.3s;
+}
+.our-work > .work > figure > span:hover {
+  background-color: #0b1416;
+}
+.our-work > .work > figure > span:hover > a {
+  color: #FFF;
+}
+.our-work > .work > .History {
+  background-color: #FFF;
+}
+
+.work-for-clients {
+  background-color: #0b1416;
+}
+.work-for-clients > p {
+  color: #c6a16e;
+  text-transform: capitalize;
+  font-family: GreatVibes-Regular;
+}
+.work-for-clients > h2 {
+  color: #c6a16e;
+  text-transform: capitalize;
+  font-family: JosefinSans-Italic;
+}
+.work-for-clients > figure > span {
+  color: #c6a16e;
+  cursor: pointer;
+}
+.work-for-clients > figure > figcaption > span {
+  color: #FFF;
+  font-family: GreatVibes-Regular;
+  cursor: pointer;
+}
+
+.our-tailor {
+  background-color: #0b1416;
+}
+.our-tailor > .location > h6 {
+  color: #c6a16e;
+  font-family: GreatVibes-Regular;
+  text-transform: capitalize;
+}
+.our-tailor > .location > h3 {
+  color: #c6a16e;
+  font-family: JosefinSans-Italic;
+  text-transform: capitalize;
+}
+.our-tailor > .location > p {
+  font-family: Montserrat-VariableFont;
+  color: #FFF;
+  text-align: center;
+}
+.our-tailor > .location > span {
+  color: #FFF;
+  text-transform: capitalize;
+  font-family: Montserrat-VariableFont;
+}
+.our-tailor > .location > ul > li > a {
+  color: #c6a16e;
+}
+.our-tailor > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-tailor > figure > figcaption {
+  background-color: rgba(198, 161, 110, 0.6);
+}
+.our-tailor > figure > figcaption > span {
+  color: #FFF;
+  text-transform: capitalize;
+}
+.our-tailor > figure > figcaption > a {
+  background-color: #0b1416;
+  text-transform: capitalize;
+  color: #FFF;
+  font-family: Montserrat-VariableFont;
+}
+
+main {
+  background-color: #0b1416;
+}
+main > .Testimonial {
+  background-color: inherit;
+}
+main > .Testimonial > p {
+  text-align: center;
+  color: #FFF;
+  font-family: Montserrat-VariableFont;
+  margin-top: 30px;
+}
+main > .next > span {
+  color: #a0a0a0;
+}
+main > .next > span:nth-of-type(1) {
+  color: #FFF;
+}
+
+footer {
+  background-color: #0b1416;
+}
+footer > .end-of-footer {
+  background-color: #c6a16e;
+}
+footer > .end-of-footer > .is-an-art > h4 {
+  color: #FFF;
+  font-family: Montserrat-VariableFont;
+}
+footer > .end-of-footer > .contact-link-social > div > h5 {
+  color: #FFF;
+  font-family: Montserrat-VariableFont;
+  font-weight: 300;
+}
+footer > .end-of-footer > .contact-link-social > div > p {
+  color: #FFF;
+  font-family: Montserrat-VariableFont;
+  font-weight: 300;
+}
+footer > .end-of-footer > .contact-link-social > div > ul > li {
+  transition: 0.4s;
+}
+footer > .end-of-footer > .contact-link-social > div > ul > li > a {
+  color: #FFF;
+  font-family: Montserrat-VariableFont;
+  font-weight: 400;
+}
+footer > .end-of-footer > .contact-link-social > div > ul > li:hover {
+  transform: translateX(7px);
+}
+footer > .end-of-footer > .contact-link-social > div > a {
+  color: #FFF;
+  transition: 0.3s;
+}
+footer > .end-of-footer > .contact-link-social > div > a:hover {
+  color: #000;
+}
+footer > .end-of-footer > .end-of-footer-name > h6 {
+  color: #FFF;
+  font-family: JosefinSans-Italic;
+  font-weight: 500;
+}
+footer > .end-of-footer > .end-of-footer-name > h6 > a {
+  color: red;
+  text-transform: capitalize;
+  font-family: JosefinSans-Italic;
+}/*# sourceMappingURL=Fashos.css.map */

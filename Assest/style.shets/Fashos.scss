@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$first-text-color:#0a0c10;
+$secondary-text-color:#c6a16e;
+$Tirdth-text-color:#FFFFFF;
+$forth-text-color:#161922;
+$fifth-text-color:#FFF;
+$sixth-text-color:#a0a0a0;
+// _________________________ END OF ALL TEXT COLOR _________________
+$first-background-color:#212529;
+$Secoundry-background-color:#f4efe6;
+$Tirdth-background-color:rgba(198,161,110,0.6);
+$Forth-background-color:#0b1416;
+$Fifth-background-color:#c6a16e;
+$sixth-background-color:#FFF;
+// __________________________ END OF ALL BACKGROUND COLOR _____________________
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.border-test{
+    border: 3px solid red;
+}
+.border-test2{
+    border: 2px solid gold;
+}
+.border-test3{
+    border: 2px solid green;
+}
+.border-test4{
+    border: 1px solid #c6a16e5b;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.width{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family:GreatVibes-Regular ;
+    src: url(../Font/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family:JosefinSans-Italic;
+    src: url(../Font/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Montserrat-VariableFont;
+    src: url(../Font/Montserrat-VariableFont_wght.ttf);
+}
+@import'./headre-top';
+@import'offer-of-slients';
+@import'our-work';
+@import'work-for-clients';
+@import'our-tailore';
+@import'main';
+@import'footer';

@@ -1,0 +1,1670 @@
+@media screen and (max-width:767px) {
+    /* Phone */
+    .header_top{
+        width: 100%;
+        height: 100vh;
+        >nav{
+            width: 100%;
+            height: 15%;
+            >ul{
+                display: none;
+            }
+            >div{
+                display: none;
+            }
+            >figure{
+                width: 50%;
+                height: 100%;
+                >img{
+                    /* width: 0%; */
+                    /* height: 100%; */
+                    object-fit: cover;
+                }
+            }
+        }
+        /* __________ END OF NAV ________ */
+        >section{
+            width: 100%;height: inherit;
+            background-color: #0b1416;
+            >.personalization{
+                width: 50%;
+                height: 100%;
+                >h1{
+                    font-size: 1.5rem;
+                    margin-left: 50px;
+                }
+                >p{
+                    margin-top: 15px;
+                    font-size: 1rem;
+                }
+                >.arow{
+                    display: none;
+                }
+            }
+        }
+        /* ________ END OF SECTION _________ */
+    }
+    /* __________ END OF HEADER_TOP _________ */
+    /* ___________ START OF .OFFER-OF-SLICENTS ___________ */
+    .offer-of-clients{
+            width: 100%;
+            /* height: 200vh; */
+            >.area-section{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                >.aside-div{
+                    width: 80%;
+                    height: 100%;
+                    padding-top: 100px;
+                    >.what-we-offer{
+                        width: 100%;
+                        height: 25%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        >p{
+                            font-family:GreatVibes-Regular ;
+                            color:#c6a16e;
+                            font-size: 1.5rem;
+                            text-transform: capitalize;
+                        }
+                        /* __________ END OF P -___________ */
+                        >h3{
+                            color: #c6a16e;
+                            font-family:JosefinSans-Italic;
+                            font-size: 1.8rem;
+                            text-transform: capitalize;
+                            margin-top: 10px;
+                        }
+                        /* ________- END OF H3 ___________ */
+                    }
+                    /* ____________ END OF .WHAT-WE-OFFER ____________ */
+                    >.img-style{
+                        width: 100%;
+                        height: 100%;
+                        margin-top: 30px;
+                        /* justify-content: space-evenly; */
+                        >figure{
+                            width: 300px;
+                            position: relative;
+                            >figcaption{
+                                width: 100%;
+                                >h4{
+                                    color: #fff;
+                                    font-family:JosefinSans-Italic;
+                                    font-size: 1.8rem;
+                                    font-weight: 600;
+                                    margin-top: 30px;
+                                    transition: .3s;
+                                }
+                                /* ______________ END OF H4 _____________ */
+                                >p{
+                                    color: #96989a;
+                                    font-family:JosefinSans-Italic;
+                                    font-size: 1.3rem;
+                                    font-weight: 300;
+                                    text-transform: capitalize;
+                                    margin-top: 10px;
+                                }
+                                /* ___________ END OF P -___________ */
+                                >a{
+                                    display: inline-block;
+                                    color: #c6a16e;
+                                    font-size: 2.5rem;
+                                    margin-top: 20px;
+                                    transition: .3s;
+                                }
+                                /* ___________ END OF A _________ */
+                            }
+                            /* ___________- END OF FIGCAPTION -__________/ */
+                            >span{
+                                display: inline-block;
+                                width: 40px;
+                                height: 40px;
+                                text-align: center;
+                                line-height: 40px;
+                                border-radius: 50%;
+                                background-color: #c6a16e;
+                                color: #FFF;
+                                font-size: 20px;
+                                font-family:JosefinSans-Italic;
+                                position: absolute;
+                                left: -53px;
+                                top: 343px;
+                                transition: .3s;
+                            }
+                            /* ___________ END OF SPAN _________ */
+                            &:hover>figcaption>h4{
+                                color: #c6a16e;
+                            }
+                            &:hover>figcaption>a{
+                                color: #FFF;
+                            }
+                            &:hover>span{
+                                background-color: #FFF;
+                                color: #000;
+                            }
+                        }
+                        /* ____________ END OF FIGURE __________ */
+                    }
+                    /* __________ END OF .IMG-STYL __________ */
+                }
+                /* __________ END OF .ASIDE-DIV ____________ */
+            }
+            /* _________ END OF .AREA-SECTION -_______-___ */
+    }
+    /* ______________ END OF .OFFER-OF-SLICENTS _________ */
+    /* ___________ START OF .OUR-WORK __________ */
+    .our-work{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        >.work{
+            width: 85%;
+            height: 75%;
+            >figure{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: 5;
+                >img{
+                    height: 100%;
+                    width: 100%;
+                }
+                >span{
+                    width: 40px;
+                    height: 40px;
+                    font-size: 1.2rem;
+                    line-height: 40px;
+                    >a{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            /* _________ END OF FIGURE _________ */
+            >.History{
+                width: 100%;
+                margin-top: 100px;
+                position: relative;
+                &::after{
+                    content: 'History';
+                    display: block;
+                    position: absolute;
+                    top: -120px;right: 100px;
+                    -webkit-text-stroke: 1px #28241d;
+                    font-family: "Montserrat",sans-serif;        
+                    color: transparent;
+                    font-size: 6.5rem;       
+                }
+                >.our-history{
+                    width: 80%;
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 20px;
+                    >h4{
+                        color: #161922;
+                        font-size: 1.9rem;
+                        font-family:JosefinSans-Italic;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                    }
+                    /* -________ END OF H4 _________ */
+                    >p{
+                        font-family:GreatVibes-Regular ;
+                        color: #161922;
+                        /* text-align: center; */
+                        font-size: 1rem;
+                        font-weight: 400;
+                        margin-top: 30px;
+                    }
+                    /* __________ END OF P -___________ */
+                    >a{
+                        width: 90px;
+                        height: 40px;
+                        background-color: #c6a16e;
+                        text-align: center;
+                        line-height: 40px;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                        font-family:JosefinSans-Italic;
+                        margin-top: 40px;
+                        transition: .3s;
+                        &:hover{
+                            background-color: #ea9a29;
+                        }
+                    }
+                    /* ____________ END OF A ____________ */
+                }
+                /* ____________ END OF .OUR-HISTORY ___________ */
+            }
+            /* __________ END OF .HISTORY ____________ */
+        }
+        /* __________ END OF .WORK ___________ */
+    }
+    /* _________ END OF .OUR-WORK ____________ */
+    /* <!-- __________ START OF .WORK-FOR-CLIENTS _________- --> */
+    .work-for-clients{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        >p{
+            font-size: 2.5vw;
+        }
+        /* _________ END OF P ____________ */
+        >h2{
+            font-size: 4vw;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        /* __________ END OF H2 -___________ */
+        >figure{
+            width: 80%;
+            height: 60vh;
+            position: relative;
+            margin-top: 100px;
+            >img{
+                width: 100%;
+                /* height: 100%; */
+                object-fit: cover;
+                object-position: center;
+            }
+            >span{
+                position: absolute;
+                font-size: 5vw;
+                &:nth-of-type(1){
+                    left: 0;top: 25%;
+                }
+                &:nth-of-type(2){
+                    right: 0;top: 25%;
+                }
+            }
+            /* _________ END OF SPAN __________ */
+            >figcaption{
+                display: none;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                >span{
+                    padding-inline: 20px;
+                    margin-top: 20px;
+                    font-size: 25px;
+                    position: relative;
+                    display: none;
+                    &:nth-of-type(1){
+                        transform: translateY(-10px);
+                        &::after{
+                            content: '=';
+                            display: block;
+                            color: #fff;
+                            position: absolute;
+                            left: 11px;
+                            bottom: -26px;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                /* _________ END OF SPAN ___________ */
+            }
+            /* _________ END OF FIGCAPTION ____________ */
+        }
+        /* __________ END OF FOGURE -___________- */
+    }
+    /* <!-- ____________ END OF .WORK-FOR-CLIENTD ___________- --> *
+    /* _________ START OF .OUR-TAILOR ___________- */
+    .our-tailor{
+        width: 100%;
+        /* height: 100vh; */
+        /* display: flex; */
+        padding-bottom: 20px;
+        padding-top: 100px;
+        >.location{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h6{
+                font-size: 3vw;
+            }
+            /* ________ END OF H6 _________- */
+            >h3{
+                font-size: 4vw;
+                font-weight: 500;
+                margin-top: 20px;
+            }
+            /* ________ END OF H3 __________ */
+            >p{
+                width: 60%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 13px;
+            }
+            /* _______ END OF P ________ */
+            >span{
+                padding-block: 6px;
+                font-size: 13px;
+            }
+            /* ________ END OF SPAN ________ */
+            >ul{
+                display: flex;
+                margin-top: 50px;
+                >li{
+                    padding-inline: 5px;
+                    >a{
+                        transition: .4s;
+                        &:hover{
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+            /* ________ END OF UL -_________ */
+        }
+        /* ___________-__ END OF LOCATION __________ */
+        >figure{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            margin-top: 20px;
+            >figcaption{
+                width: 50%;
+                height: 20vh;
+                position: absolute;
+                left: 25%;bottom: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                >span{
+                    font-size: 6vw;
+                }
+                /* ________- END OF SPAN __________ */
+                >a{
+                    padding: 10px 40px;
+                    margin-top: 10px;
+                    position: relative;
+                    font-size: 2vw;
+                    &::after{
+                        content: '';
+                        display: block;
+                        background-color: #c6a16e;
+                        width: 0%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;left: 0;
+                        transition: .4s;
+                    }
+                    &:hover{
+                        z-index: 1;
+                    }
+                    &:hover::after{
+                        width: 100%;
+                        z-index: -1;
+                    }
+                }
+                /* _________ END OF A _________ */
+            }
+            /* _________- END OF FIGCAPTION ____________ */
+        }
+        /* _________ END OF FIGURE ___________ */
+    }
+    /* _________ END OF .OUR-TAILOR __________- */
+    /* __________ START OF MAIN ____________ */
+    main{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >.Testimonial{
+            width: 90%;
+            height: 40%;
+            padding: 0px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            &::before{
+                content: 'Testimonial';
+                display: block;
+                position: absolute;
+                top: -30px;left: 0;
+                -webkit-text-stroke: 1px #c6a16e;;
+                color: transparent;
+                font-family: Montserrat-VariableFont;
+                font-size: 7vw;
+                opacity: 0.2;
+            }
+            >p{
+                font-size: 1.8vw;
+            }
+        }
+        /* __________ END OF .TESTIMONIAL _____________- */
+        >.next{
+            width: 80%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            >span{
+                padding-inline: 3px;
+                font-size: 1.3vw;
+            }
+        }
+        /* __________-- END OF .NEXT ____________ */
+    }
+    /* _________ END OF MAIN ___________ */
+    /* _________ START OF FOOTER _________ */
+    footer{
+        width: 100%;
+        height: auto;
+        >figure{
+            display: none;
+        }
+        >.end-of-footer{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >.is-an-art{
+                width: 85%;
+                height: 40%;
+                padding: 70px 100px;
+                display: flex;
+                /* justify-content: center; */
+                font-size: 4vw;
+                font-weight: 400;
+            }
+            /* ______ END OF .IS-AN-ART _________ */
+            >.contact-link-social{
+                width: 85%;
+                height: 50%;
+                display: flex;
+                >div{
+                    width: 33.33%;
+                    padding: 0px 50px;
+                    >h5{
+                        font-size: 1.4vw;
+                        margin-top: 30px;
+                    }
+                    /* _______ END OF H5 ________ */
+                    >p{
+                        margin-top: 20px;
+                        line-height: 30px;
+                        font-size: 1.1vw;
+                    }
+                    >ul{
+                        margin-top: 30px;
+                        >li{
+                            padding-block: 4px;
+                            font-size: 1.3vw;
+                        }
+                    }
+                    /* ________ END OF UL -_________ */
+                    >a{
+                        display: inline-block;
+                        font-size: 1.3vw;
+                        margin-top: 20px;
+                    }
+                    /* _________ END OF A ________ */
+                }
+                /* _______ END OF DIV __________ */
+            }
+            /* _________ END OF CONTACT-LINK-SOCIAL _________ */
+            >.end-of-footer-name{
+                width: 85%;
+                height: 10%;
+                >h6{
+                    font-size: 1vw;
+                    margin-top: 20px;
+                }
+            }
+            /* ________ END OF .END-OF-FOOTER-NAME __________ */
+        }
+        /* _______ END FO .END-OF-FOOTER _________ */
+    }
+    /* ________ END OF FOOTER ____________ */
+}
+@media screen and (min-width:768px) {
+    /* tapleat */
+    .header_top{
+        width: 100%;
+        height: 100vh;
+        >nav{
+            >ul{
+                >li{
+                    padding-inline: 5px;
+                    >a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        /* _________ END OF NAV __________ */
+        >section{
+            width: 90%;
+            height: 120vh;
+            background-color: #0b1416;
+            >.personalization{
+                width: 50%;
+                height: 100%;
+                position: relative;
+                >h1{
+                    font-size: 2.5rem;
+                    margin-left: 50px;
+                }
+                >p{
+                    margin-top: 15px;
+                    font-size: 1.5rem;
+                }
+                >.arow{
+                    width: 150px;
+                    height: 60px;
+                    position: absolute;
+                    align-self: flex-start;
+                    left: 0;bottom: 0;
+                    >a{
+                        margin-inline: 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 50%;
+                        height: 100%;
+                        font-size: 2rem;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        /* __________- END OF SECTION _______ */
+    }
+    /* __________ END OF HEADER_TOP _________ */
+    /* ___________ START OF .OFFER-OF-SLICENTS ___________ */
+    .offer-of-clients{
+            width: 100%;
+            height: 200vh;
+            >.area-section{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                >.aside-div{
+                    width: 80%;
+                    height: 100%;
+                    padding-top: 100px;
+                    >.what-we-offer{
+                        width: 100%;
+                        height: 25%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        >p{
+                            font-family:GreatVibes-Regular ;
+                            color:#c6a16e;
+                            font-size: 2.5rem;
+                            text-transform: capitalize;
+                        }
+                        /* _____________- END OF P ____________ */
+                        >h3{
+                            color: #c6a16e;
+                            font-family:JosefinSans-Italic;
+                            font-size: 3rem;
+                            text-transform: capitalize;
+                            margin-top: 10px;
+                        }
+                        /* _________ END OF H3 ______________ */
+                    }
+                    /* ___________ END OF .WHAT-WE-OFFER __________ */
+                    >.img-style{
+                        width: 100%;
+                        height: 75%;
+                        display: flex;
+                        justify-content: space-evenly;
+                        >figure{
+                            width: 200px;
+                            position: relative;
+                            >img{
+                                width: 100%;
+                                /* object-fit: cover; */
+                            }
+                            >figcaption{
+                                width: 100%;
+                                >h4{
+                                    color: #fff;
+                                    font-family:JosefinSans-Italic;
+                                    font-size: 1.5rem;
+                                    font-weight: 600;
+                                    margin-top: 30px;
+                                    transition: .3s;
+                                }
+                                /* ____________ END OF H4 -________-- */
+                                >p{
+                                    color: #96989a;
+                                    font-family:JosefinSans-Italic;
+                                    font-size: 1rem;
+                                    font-weight: 300;
+                                    text-transform: capitalize;
+                                    margin-top: 10px;
+                                    text-align: center;
+                                }
+                                /* ____________- END OF P __________ */
+                                >a{
+                                    display: inline-block;
+                                    color: #c6a16e;
+                                    font-size: 2.5rem;
+                                    margin-top: 20px;
+                                    transition: .3s;
+                                }
+                                /* _________ END OF A -________ */
+                            }
+                            /* ____________ END OF FIGCAPTION _________ */
+                            >span{
+                                display: inline-block;
+                                width: 40px;
+                                height: 40px;
+                                text-align: center;
+                                line-height: 40px;
+                                border-radius: 50%;
+                                background-color: #c6a16e;
+                                color: #FFF;
+                                font-size: 20px;
+                                font-family:JosefinSans-Italic;
+                                position: absolute;
+                                left: -40px;
+                                top: 350px;
+                                transition: .3s;
+                            }
+                            /* ___________ END OF SPAN ____________ */
+                            &:hover>figcaption>h4{
+                                color: #c6a16e;
+                            }
+                            &:hover>figcaption>a{
+                                color: #FFF;
+                            }
+                            &:hover>span{
+                                background-color: #FFF;
+                                color: #000;
+                            }
+                        }
+                        /* ___________ END OF FIGURE _____________ */
+                    }
+                    /* ____________ END OF .IMG-STYLE ___________ */
+                }
+                /* ___________ END OF .AREA-ASIDE __________ */
+            }
+            /* -___________ END OF .AREA-ASIDE _____________ */
+    }
+    /* ______________ END OF .OFFER-OF-SLICENTS _________ */
+    /* ___________ START OF .OUR-WORK __________ */
+    .our-work{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >.work{
+                width: 85%;
+                height: 75%;
+                position: relative;
+                &::after{
+                    content: 'History';
+                    display: block;
+                    position: absolute;
+                    top: -30px;right: 100px;
+                    -webkit-text-stroke: 1px #28241d;
+                    font-family: "Montserrat",sans-serif;        
+                    color: transparent;
+                    font-size: 6rem;       
+                }
+                >figure{
+                    width: 48%;
+                    height: 100%;
+                    position: relative;
+                    z-index: 5;
+                    >img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    >span{
+                        width: 50px;
+                        height: 50px;
+                        font-size: 1.5rem;
+                        line-height: 50px;
+                        >a{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                /* _________ END OF FIGURE _________ */
+                >.History{
+                    width: 60%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: -50px;left: 300px;
+                    display: flex;
+                    justify-content: flex-end;
+                    z-index: 1;
+                    >.our-history{
+                        width: 80%;
+                        height: inherit;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 20px;
+                        >h4{
+                            color: #161922;
+                            font-size: 2.5rem;
+                            font-family:JosefinSans-Italic;
+                            text-transform: capitalize;
+                            font-weight: 500;
+                        }
+                        /* -________ END OF H4 _________ */
+                        >p{
+                            font-family:JosefinSans-Italic;
+                            color: #161922;
+                            /* text-align: center; */
+                            font-size: 1rem;
+                            font-weight: 400;
+                            margin-top: 30px;
+                        }
+                        /* __________ END OF P -___________ */
+                        >a{
+                            width: 120px;
+                            height: 40px;
+                            background-color: #c6a16e;
+                            text-align: center;
+                            line-height: 40px;
+                            font-size: 1rem;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            font-family:JosefinSans-Italic;
+                            margin-top: 40px;
+                            transition: .3s;
+                            &:hover{
+                                background-color: #ea9a29;
+                            }
+                        }
+                        /* ____________ END OF A ____________ */
+                    }
+                    /* ____________ END OF .OUR-HISTORY ___________ */
+                }
+                /* __________ END OF .HISTORY ____________ */
+            }
+            /* __________ END OF .WORK ___________ */
+    }
+    /* _________ END OF .OUR-WORK ____________ */
+    /* <!-- __________ START OF .WORK-FOR-CLIENTS _________- --> */
+    .work-for-clients{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        >p{
+            font-size: 2.5vw;
+        }
+        /* _________ END OF P ____________ */
+        >h2{
+            font-size: 4vw;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        /* __________ END OF H2 -___________ */
+        >figure{
+            width: 80%;
+            height: 110vh;
+            position: relative;
+            margin-top: 100px;
+            >img{
+                width: 100%;
+                /* height: 100%; */
+                object-fit: cover;
+                object-position: center;
+            }
+            >span{
+                position: absolute;
+                font-size: 4vw;
+                &:nth-of-type(1){
+                    left: 0;top: 25%;
+                }
+                &:nth-of-type(2){
+                    right: 0;top: 25%;
+                }
+            }
+            /* _________ END OF SPAN __________ */
+            >figcaption{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                >span{
+                    padding-inline: 20px;
+                    margin-top: 20px;
+                    font-size: 2vw;
+                    position: relative;
+                    &:nth-of-type(1){
+                        transform: translateY(-10px);
+                        &::after{
+                            content: '=';
+                            display: block;
+                            color: #fff;
+                            position: absolute;
+                            left: 11px;
+                            bottom: -26px;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                /* _________ END OF SPAN ___________ */
+            }
+            /* _________ END OF FIGCAPTION ____________ */
+        }
+        /* __________ END OF FOGURE -___________- */
+    }
+    /* <!-- ____________ END OF .WORK-FOR-CLIENTD ___________- --> */
+    /* _________ START OF .OUR-TAILOR ___________- */
+    .our-tailor{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        padding-bottom: 20px;
+        padding-top: 100px;
+        >.location{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h6{
+                font-size: 3vw;
+            }
+            /* ________ END OF H6 _________- */
+            >h3{
+                font-size: 4vw;
+                font-weight: 500;
+                margin-top: 20px;
+            }
+            /* ________ END OF H3 __________ */
+            >p{
+                width: 60%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            /* _______ END OF P ________ */
+            >span{
+                padding-block: 6px;
+            }
+            /* ________ END OF SPAN ________ */
+            >ul{
+                display: flex;
+                margin-top: 50px;
+                >li{
+                    padding-inline: 5px;
+                    >a{
+                        transition: .4s;
+                        &:hover{
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+            /* ________ END OF UL -_________ */
+        }
+        /* ___________-__ END OF LOCATION __________ */
+        >figure{
+            width: 50%;
+            height: 100%;
+            position: relative;
+            >figcaption{
+                width: 60%;
+                height: 40vh;
+                position: absolute;
+                left: 25%;bottom: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                >span{
+                    font-size: 6vw;
+                }
+                /* ________- END OF SPAN __________ */
+                >a{
+                    padding: 17px 60px;
+                    margin-top: 10px;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        display: block;
+                        background-color: #c6a16e;
+                        width: 0%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;left: 0;
+                        transition: .4s;
+                    }
+                    &:hover{
+                        z-index: 1;
+                    }
+                    &:hover::after{
+                        width: 100%;
+                        z-index: -1;
+                    }
+                }
+                /* _________ END OF A _________ */
+            }
+            /* _________- END OF FIGCAPTION ____________ */
+        }
+        /* _________ END OF FIGURE ___________ */
+    }
+    /* _________ END OF .OUR-TAILOR __________- */
+    /* __________ START OF MAIN ____________ */
+    main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >.Testimonial{
+            width: 80%;
+            height: 55%;
+            padding: 0px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            &::before{
+                content: 'Testimonial';
+                display: block;
+                position: absolute;
+                top: -80px;left: 0;
+                -webkit-text-stroke: 1px #c6a16e;;
+                color: transparent;
+                font-family: Montserrat-VariableFont;
+                font-size: 7vw;
+                opacity: 0.2;
+            }
+            >p{
+                font-size: 1.8vw;
+            }
+        }
+        /* __________ END OF .TESTIMONIAL _____________- */
+        >.next{
+            width: 80%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            >span{
+                padding-inline: 3px;
+                font-size: 1.3vw;
+            }
+        }
+        /* __________-- END OF .NEXT ____________ */
+    }
+    /* _________ END OF MAIN ___________ */
+    /* _________ START OF FOOTER _________ */
+    footer{
+        width: 100%;
+        height: auto;
+        >figure{
+            display: none;
+        }
+        >.end-of-footer{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >.is-an-art{
+                width: 85%;
+                height: 40%;
+                padding: 70px 100px;
+                display: flex;
+                /* justify-content: center; */
+                font-size: 4vw;
+                font-weight: 400;
+            }
+            /* ______ END OF .IS-AN-ART _________ */
+            >.contact-link-social{
+                width: 85%;
+                height: 50%;
+                display: flex;
+                >div{
+                    width: 33.33%;
+                    padding: 0px 50px;
+                    >h5{
+                        font-size: 1.4vw;
+                        margin-top: 30px;
+                    }
+                    /* _______ END OF H5 ________ */
+                    >p{
+                        margin-top: 20px;
+                        line-height: 30px;
+                        font-size: 1.1vw;
+                    }
+                    >ul{
+                        margin-top: 30px;
+                        >li{
+                            padding-block: 4px;
+                            font-size: 1.3vw;
+                        }
+                    }
+                    /* ________ END OF UL -_________ */
+                    >a{
+                        display: inline-block;
+                        font-size: 1.3vw;
+                        margin-top: 20px;
+                    }
+                    /* _________ END OF A ________ */
+                }
+                /* _______ END OF DIV __________ */
+            }
+            /* _________ END OF CONTACT-LINK-SOCIAL _________ */
+            >.end-of-footer-name{
+                width: 85%;
+                height: 10%;
+                >h6{
+                    font-size: 1vw;
+                    margin-top: 20px;
+                }
+            }
+            /* ________ END OF .END-OF-FOOTER-NAME __________ */
+        }
+        /* _______ END FO .END-OF-FOOTER _________ */
+    }
+    /* ________ END OF FOOTER ____________ */
+}
+@media screen and (min-width:992px) {
+    /* Laptop */
+    .header_top{
+        width: 100%;
+        height: 100vh;
+        >nav{
+            >ul{
+                >li{
+                    padding-inline: 15px;
+                    >a{
+                        font-size: 18px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        /* __________ END OF NAV __________ */
+        >section{
+            width: 90%;
+            height: 120vh;
+            background-image: url(../IMG/h1_hero.jpg);
+            >.personalization{
+                width: 50%;
+                height: 100%;
+                position: relative;
+                >h1{
+                    font-size: 4rem;
+                    margin-left: 50px;
+                }
+                >p{
+                    margin-top: 15px;
+                    font-size: 2.5rem;
+                }
+                >.arow{
+                    width: 150px;
+                    height: 60px;
+                    position: absolute;
+                    align-self: flex-start;
+                    left: 0;bottom: 0;
+                    >a{
+                        margin-inline: 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 50%;
+                        height: 100%;
+                        font-size: 2rem;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        /* __________ END OF SECTION _________ */
+    }
+    /* ___________ END OF HEADER_TOP _________ */
+    /* ___________ START OF .OFFER-OF-SLICENTS ___________ */
+    .offer-of-clients{
+        width: 100%;
+        height: 200vh;
+        >.area-section{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            >.aside-div{
+                width: 80%;
+                height: 100%;
+                padding-top: 100px;
+                >.what-we-offer{
+                    width: 100%;
+                    height: 25%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    >p{
+                        font-family:GreatVibes-Regular ;
+                        color:#c6a16e;
+                        font-size: 3rem;
+                        text-transform: capitalize;
+                    }
+                    /* ___________ END OF P ___________ */
+                    >h3{
+                        color: #c6a16e;
+                        font-family:JosefinSans-Italic;
+                        font-size: 3.5rem;
+                        text-transform: capitalize;
+                        margin-top: 10px;
+                    }
+                    /* -____________ END OF H3 ______________ */
+                }
+                /* -________--- END OF .WHAT-WE-OFFER __________ */
+                >.img-style{
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    >figure{
+                        width: 300px;
+                        position: relative;
+                        margin-inline: 10px;
+                        >figcaption{
+                            width: 100%;
+                            >h4{
+                                color: #fff;
+                                font-family:JosefinSans-Italic;
+                                font-size: 2rem;
+                                font-weight: 600;
+                                margin-top: 30px;
+                                transition: .3s;
+                            }
+                            /* __________ END OF H4 -_________ */
+                            >p{
+                                color: #96989a;
+                                font-family:JosefinSans-Italic;
+                                font-size: 1.3rem;
+                                font-weight: 300;
+                                text-transform: capitalize;
+                                margin-top: 10px;text-align: left;
+                            }
+                            /* ___________ END OF P __________ */
+                            >a{
+                                display: inline-block;
+                                color: #c6a16e;
+                                font-size: 2.5rem;
+                                margin-top: 20px;
+                                transition: .3s;
+                            }
+                            /* ___________ END OF A _________ */
+                        }
+                        /* ___________ END OF FIGCAPTION __________ */
+                        >span{
+                            display: inline-block;
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            line-height: 40px;
+                            border-radius: 50%;
+                            background-color: #c6a16e;
+                            color: #FFF;
+                            font-size: 20px;
+                            font-family:JosefinSans-Italic;
+                            position: absolute;
+                            left: -53px;
+                            top: 343px;
+                            transition: .3s;
+                        }
+                        /* ______________ END OF SPAN _____________ */
+                        &:hover>figcaption>h4{
+                            color: #c6a16e;
+                        }
+                        &:hover>figcaption>a{
+                            color: #FFF;
+                        }
+                        &:hover>span{
+                            background-color: #FFF;
+                            color: #000;
+                        }
+                    }
+                    /* ___________ END OF FIGURE ___________ */
+                }
+                /* _____________ END OF .IMG-STYLE ______________ */
+            }
+            /* ___________ END OF .ASIDE-DIV _____________ */
+        }
+        /* -_____________ END OF AREA-SECTION __________ */
+    }
+    /* ______________ END OF .OFFER-OF-SLICENTS _________ */
+    /* ___________ START OF .OUR-WORK __________ */
+    .our-work{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >.work{
+            width: 85%;
+            height: 75%;
+            position: relative;
+            &::after{
+                content: 'History';
+                display: block;
+                position: absolute;
+                top: -80px;right: 100px;
+                -webkit-text-stroke: 1px #28241d;
+                font-family: "Montserrat",sans-serif;        
+                color: transparent;
+                font-size: 10rem;       
+            }
+            >figure{
+                width: 48%;
+                height: 100%;
+                position: relative;
+                z-index: 5;
+                >img{
+                    height: 100%;
+                    width: 100%;
+                }
+                >span{
+                    width: 80px;
+                    height: 80px;
+                    font-size: 2rem;
+                    line-height: 80px;
+                    >a{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            /* _________ END OF FIGURE _________ */
+            >.History{
+                width: 67%;
+                height: 100%;
+                position: absolute;
+                bottom: -50px;left: 400px;
+                display: flex;
+                justify-content: flex-end;
+                z-index: 1;
+                >.our-history{
+                    width: 80%;
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 70px;
+                    >h4{
+                        color: #161922;
+                        font-size: 3rem;
+                        font-family:JosefinSans-Italic;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                    }
+                    /* -________ END OF H4 _________ */
+                    >p{
+                        font-family:JosefinSans-Italic;
+                        color: #161922;
+                        /* text-align: center; */
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        margin-top: 30px;
+                    }
+                    /* __________ END OF P -___________ */
+                    >a{
+                        width: 170px;
+                        height: 60px;
+                        background-color: #c6a16e;
+                        text-align: center;
+                        line-height: 60px;
+                        font-size: 1.3rem;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                        font-family:JosefinSans-Italic;
+                        margin-top: 40px;
+                        transition: .3s;
+                        &:hover{
+                            background-color: #ea9a29;
+                        }
+                    }
+                    /* ____________ END OF A ____________ */
+                }
+                /* ____________ END OF .OUR-HISTORY ___________ */
+            }
+            /* __________ END OF .HISTORY ____________ */
+        }
+        /* __________ END OF .WORK ___________ */
+    }
+    /* _________ END OF .OUR-WORK ____________ */
+    /* <!-- __________ START OF .WORK-FOR-CLIENTS _________- --> */
+    .work-for-clients{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        >p{
+            font-size: 2.5vw;
+        }
+        /* _________ END OF P ____________ */
+        >h2{
+            font-size: 4vw;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        /* __________ END OF H2 -___________ */
+        >figure{
+            width: 80%;
+            height: 110vh;
+            position: relative;
+            margin-top: 100px;
+            >img{
+                width: 100%;
+                /* height: 100%; */
+                object-fit: cover;
+                object-position: center;
+            }
+            >span{
+                position: absolute;
+                font-size: 40px;
+                &:nth-of-type(1){
+                    left: 0;top: 50%;
+                }
+                &:nth-of-type(2){
+                    right: 0;top: 50%;
+                }
+            }
+            /* _________ END OF SPAN __________ */
+            >figcaption{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                >span{
+                    padding-inline: 20px;
+                    margin-top: 20px;
+                    font-size: 25px;
+                    position: relative;
+                    &:nth-of-type(1){
+                        transform: translateY(-10px);
+                        &::after{
+                            content: '=';
+                            display: block;
+                            color: #fff;
+                            position: absolute;
+                            left: 11px;
+                            bottom: -26px;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                /* _________ END OF SPAN ___________ */
+            }
+            /* _________ END OF FIGCAPTION ____________ */
+        }
+        /* __________ END OF FOGURE -___________- */
+    }
+    /* <!-- ____________ END OF .WORK-FOR-CLIENTD ___________- --> */
+    /* _________ START OF .OUR-TAILOR ___________- */
+    .our-tailor{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        padding-bottom: 20px;
+        padding-top: 100px;
+        >.location{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h6{
+                font-size: 3vw;
+            }
+            /* ________ END OF H6 _________- */
+            >h3{
+                font-size: 4vw;
+                font-weight: 500;
+                margin-top: 20px;
+            }
+            /* ________ END OF H3 __________ */
+            >p{
+                width: 60%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            /* _______ END OF P ________ */
+            >span{
+                padding-block: 6px;
+            }
+            /* ________ END OF SPAN ________ */
+            >ul{
+                display: flex;
+                margin-top: 50px;
+                >li{
+                    padding-inline: 5px;
+                    >a{
+                        transition: .4s;
+                        &:hover{
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+            /* ________ END OF UL -_________ */
+        }
+        /* ___________-__ END OF LOCATION __________ */
+        >figure{
+            width: 50%;
+            height: 100%;
+            position: relative;
+            >figcaption{
+                width: 60%;
+                height: 40vh;
+                position: absolute;
+                left: 25%;bottom: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                >span{
+                    font-size: 6vw;
+                }
+                /* ________- END OF SPAN __________ */
+                >a{
+                    padding: 17px 60px;
+                    margin-top: 10px;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        display: block;
+                        background-color: #c6a16e;
+                        width: 0%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;left: 0;
+                        transition: .4s;
+                    }
+                    &:hover{
+                        z-index: 1;
+                    }
+                    &:hover::after{
+                        width: 100%;
+                        z-index: -1;
+                    }
+                }
+                /* _________ END OF A _________ */
+            }
+            /* _________- END OF FIGCAPTION ____________ */
+        }
+        /* _________ END OF FIGURE ___________ */
+    }
+    /* _________ END OF .OUR-TAILOR __________- */
+    /* __________ START OF MAIN ____________ */
+    main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >.Testimonial{
+            width: 80%;
+            height: 55%;
+            padding: 0px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            &::before{
+                content: 'Testimonial';
+                display: block;
+                position: absolute;
+                top: -80px;left: 0;
+                -webkit-text-stroke: 1px #c6a16e;;
+                color: transparent;
+                font-family: Montserrat-VariableFont;
+                font-size: 7vw;
+                opacity: 0.2;
+            }
+            >p{
+                font-size: 1.8vw;
+            }
+        }
+        /* __________ END OF .TESTIMONIAL _____________- */
+        >.next{
+            width: 80%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            >span{
+                padding-inline: 3px;
+                font-size: 1.3vw;
+            }
+        }
+        /* ___________- END OF .NEXT -____________ */
+    }
+    /* _________ END OF MAIN ___________ */
+    /* ___________- START OF FOOTER -___________ */
+    footer{
+        width: 100%;
+        height: auto;
+        position: relative;
+        >figure{
+            display: block;
+        }
+        >.end-of-footer{
+            width: 67%;
+            height: 100vh;
+            position: absolute;
+            top: 16.9%;
+            left: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >.is-an-art{
+                width: 85%;
+                height: 40%;
+                padding: 70px 100px;
+                display: flex;
+                /* justify-content: center; */
+                font-size: 4vw;
+                font-weight: 400;
+            }
+            /* ______ END OF .IS-AN-ART _________ */
+            >.contact-link-social{
+                width: 85%;
+                height: 50%;
+                display: flex;
+                >div{
+                    width: 33.33%;
+                    padding: 0px 50px;
+                    >h5{
+                        font-size: 1.4vw;
+                        margin-top: 30px;
+                    }
+                    /* _______ END OF H5 ________ */
+                    >p{
+                        margin-top: 20px;
+                        line-height: 30px;
+                        font-size: 1.1vw;
+                    }
+                    >ul{
+                        margin-top: 30px;
+                        >li{
+                            padding-block: 4px;
+                            font-size: 1.3vw;
+                        }
+                    }
+                    /* ________ END OF UL -_________ */
+                    >a{
+                        display: inline-block;
+                        font-size: 1.3vw;
+                        margin-top: 20px;
+                    }
+                    /* _________ END OF A ________ */
+                }
+                /* _______ END OF DIV __________ */
+            }
+            /* _________ END OF CONTACT-LINK-SOCIAL _________ */
+            >.end-of-footer-name{
+                width: 85%;
+                height: 10%;
+                >h6{
+                    font-size: 1vw;
+                    margin-top: 20px;
+                }
+            }
+            /* ________ END OF .END-OF-FOOTER-NAME __________ */
+        }
+        /* _______ END FO .END-OF-FOOTER _________ */
+    }
+    /* ___________ END OF FOOTER ________ */
+}
+@media screen and (min-width:1200px) {
+    /* Desktop */
+}

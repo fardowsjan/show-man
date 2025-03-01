@@ -1,0 +1,27 @@
+.work-for-clients{
+    background-color: $Forth-background-color;
+    >p{
+        color: $secondary-text-color;
+        text-transform: capitalize;
+        font-family:GreatVibes-Regular ;
+    }
+    >h2{
+        color: $secondary-text-color;
+        text-transform: capitalize;
+        font-family:JosefinSans-Italic;
+    }
+    >figure{
+        >span{
+            color: $secondary-text-color;
+            cursor: pointer;
+        }
+        >figcaption{
+            // background-color: $Forth-background-color;
+            >span{
+                color: $fifth-text-color;
+                font-family:GreatVibes-Regular ;
+                cursor: pointer;
+            }
+        }
+    }
+}

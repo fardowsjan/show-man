@@ -1,0 +1,36 @@
+.our-work{
+    background-color: $Forth-background-color;
+    >.work{
+        >figure{
+            // border: 2px solid green;
+            position: relative;
+            z-index: 1;
+            >span{
+                display: inline-block;
+                border: 2px solid #c6a16e;
+                border-radius: 50%;
+                position: absolute;
+                top: 45%;
+                left: 45%;
+                text-align: center;
+                line-height: 80px;
+                background-color: $sixth-background-color;
+                cursor: pointer;
+                transition: .3s;
+                >a{
+                    color: $secondary-text-color;
+                    transition: .3s;
+                }
+                &:hover{
+                    background-color: $Forth-background-color;
+                }
+                &:hover>a{
+                    color: $fifth-text-color;
+                }
+            }
+        }
+        >.History{
+            background-color: $sixth-background-color;
+        }
+    }
+}

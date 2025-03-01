@@ -1,0 +1,55 @@
+.our-tailor{
+    background-color: $Forth-background-color;
+    // @extend.border-test2;
+    >.location{
+        // @extend.border-test;
+        >h6{
+            color: $secondary-text-color;
+            font-family:GreatVibes-Regular ;
+            text-transform: capitalize
+        }
+        >h3{
+            color: $secondary-text-color;
+            font-family:JosefinSans-Italic;
+            text-transform: capitalize
+        }
+        >p{
+            font-family: Montserrat-VariableFont;
+            color: $fifth-text-color;
+            text-align: center
+        }
+        >span{
+            color: $fifth-text-color;
+            text-transform: capitalize;
+            font-family: Montserrat-VariableFont;
+        }
+        >ul{
+            >li{
+                >a{
+                    color: $secondary-text-color
+                }
+            }
+        }
+    }
+    >figure{
+        // @extend.border-test3;
+        >img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        >figcaption{
+            background-color: rgba(198,161,110,0.6);
+            >span{
+                color: $fifth-text-color;
+                text-transform: capitalize;
+            }
+            >a{
+                background-color: $Forth-background-color;
+                text-transform: capitalize;
+                color: $fifth-text-color;
+                font-family: Montserrat-VariableFont;
+            }
+        }
+    }
+}
