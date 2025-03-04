@@ -470,8 +470,9 @@
             align-items: center;
             margin-top: 10px;
             >span{
+                display: inline-block;
                 padding-inline: 3px;
-                font-size: 1.3vw;
+                font-size: 20px;
             }
         }
         /* __________-- END OF .NEXT ____________ */
@@ -508,26 +509,25 @@
                     margin-left: 10px;
                     /* padding: 0px 50px; */
                     >h5{
-                        font-size: 2vw;
+                        font-size: 20px;
                         margin-top: 30px;
                     }
                     /* _______ END OF H5 ________ */
                     >p{
                         margin-top: 10px;
                         /* line-height: 30px; */
-                        font-size: 1.6vw;
+                        font-size: 10px;
                     }
                     >ul{
                         margin-top: 10px;
                         >li{
                             padding-block: 4px;
-                            font-size: 1.3vw;
+                            font-size: 15px;
                         }
                     }
                     /* ________ END OF UL -_________ */
                     >a{
                         display: inline-block;
-                        font-size: 1.8vw;
                         margin-top: 20px;
                     }
                     /* _________ END OF A ________ */
@@ -1327,7 +1327,7 @@
                 width: 67%;
                 height: 100%;
                 position: absolute;
-                bottom: -50px;left: 400px;
+                bottom: -50px;left: 350px;
                 display: flex;
                 justify-content: flex-end;
                 z-index: 1;
@@ -1601,10 +1601,14 @@
         position: relative;
         >figure{
             display: block;
+            width: 80%;
+            >img{
+                width: 100%;
+            }
         }
         >.end-of-footer{
             width: 67%;
-            height: 100vh;
+            height: 80vh;
             position: absolute;
             top: 16.9%;
             left: 33%;
